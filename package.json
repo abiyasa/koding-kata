@@ -1,0 +1,23 @@
+{
+  "name": "koding-kata",
+  "version": "1.0.0",
+  "description": "Koding Kata in Koding Dojo",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/**",
+    "test": "mocha --opts ./mocha.opts src/**/*_test.js"
+  },
+  "repository": "git@github.com:abiyasa/koding-kata.git",
+  "author": "abiyasa <ilham.suhardi@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.9.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.13.1",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7",
+    "sinon-chai": "^2.8.0"
+  }
+}
