@@ -1,0 +1,2 @@
+# koding-kata
+Tekkin Shodan!
